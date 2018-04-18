@@ -1,0 +1,333 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Documents and Settings\S M Assad\Desktop\pms\Install
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\WINDOWS\msagent\agentctl.dll=
+C:\WINDOWS\system32\msde.dll=
+C:\WINDOWS\system32\msadomd.dll=
+C:\WINDOWS\system32\msscript.ocx=
+C:\Program Files\InventoryPower\msado25.tlb=
+C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Microsoft.Vsa.tlb=
+C:\Program Files\Common Files\Microsoft Shared\CDO\CDOEX.DLL=
+C:\Documents and Settings\S M Assad\Desktop\pms\vbSendMail.dll=
+C:\WINDOWS\PCHealth\HelpCtr\Binaries\msinfo.dll=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\MSCOMCT2.OCX=
+C:\WINDOWS\system32\tabctl32.ocx=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\msbind.dll=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\Documents and Settings\S M Assad\Desktop\pms\PMS.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\msscript.ocx=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\msadomd.dll=Yes
+C:\WINDOWS\system32\msbind.dll=Yes
+C:\WINDOWS\system32\msde.dll=Yes
+C:\Program Files\Common Files\System\ado\msador15.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\COMCTL32.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\tabctl32.ocx=Yes
+C:\WINDOWS\system32\COMCT232.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\msagent\agentctl.dll=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\WINDOWS\PCHealth\HelpCtr\Binaries\msinfo.dll=Yes
+C:\Documents and Settings\S M Assad\Desktop\pms\vbSendMail.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\CDO\CDOEX.DLL=Yes
+C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Microsoft.Vsa.tlb=Yes
+C:\WINDOWS\system32\MSMAPI32.OCX=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+C:\Documents and Settings\S M Assad\Desktop\pms\PMS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\InventoryPower\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\system32\msscript.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\msadomd.dll=$(WinSysPath)
+C:\WINDOWS\system32\msbind.dll=$(WinSysPath)
+C:\WINDOWS\system32\msde.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msador15.dll=$(CommonFilesSys)\ADO
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\msagent\agentctl.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\PCHealth\HelpCtr\Binaries\msinfo.dll=$(WinSysPath)
+C:\Documents and Settings\S M Assad\Desktop\pms\vbSendMail.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\CDO\CDOEX.DLL=$(WinSysPath)
+C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Microsoft.Vsa.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\S M Assad\Desktop\pms\PMS.exe=Yes
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=PMS
+
+[Package|Dep File 1|IconGroups]
+Group0=PMS
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dep File 1|PMS]
+Icon1=PMS.exe
+Title1=PMS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|DepFile]
+DepCabFile=PMS.CAB
+DepCabRun=PMS.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\Documents and Settings\S M Assad\Desktop\pms\Install
+ProjectFolder=C:\Documents and Settings\S M Assad\Desktop\pms
+ServerSideCab=
+File1=C:\Documents and Settings\S M Assad\Desktop\pms\Install\PMS.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\S M Assad\Desktop\proc\Install-PMS
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\msagent\agentctl.dll=
+C:\WINDOWS\system32\msde.dll=
+C:\WINDOWS\system32\msadomd.dll=
+C:\WINDOWS\system32\msscript.ocx=
+C:\Program Files\InventoryPower\msado25.tlb=
+C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Microsoft.Vsa.tlb=
+C:\Program Files\Common Files\Microsoft Shared\CDO\CDOEX.DLL=
+C:\Documents and Settings\S M Assad\Desktop\pms\Source\vbSendMail.dll=
+C:\WINDOWS\PCHealth\HelpCtr\Binaries\msinfo.dll=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+C:\Program Files\TCMS\MSCOMCT2.OCX=
+C:\Program Files\TCMS\MSFLXGRD.OCX=
+C:\Program Files\Windows Media Player\OSSMTP.dll=
+C:\WINDOWS\system32\inetsrv\smtpadm.dll=
+C:\Documents and Settings\S M Assad\Desktop\proc\Source\vbSendMail.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\MSCOMCT2.OCX=
+C:\WINDOWS\system32\tabctl32.ocx=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\msbind.dll=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\msscript.ocx=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\msadomd.dll=Yes
+C:\WINDOWS\system32\msbind.dll=Yes
+C:\WINDOWS\system32\msde.dll=Yes
+C:\Program Files\Common Files\System\ado\msador15.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\COMCTL32.OCX=Yes
+C:\WINDOWS\system32\tabctl32.ocx=Yes
+C:\WINDOWS\system32\COMCT232.OCX=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\MSINET.OCX=Yes
+C:\WINDOWS\msagent\agentctl.dll=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\WINDOWS\PCHealth\HelpCtr\Binaries\msinfo.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\CDO\CDOEX.DLL=Yes
+C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Microsoft.Vsa.tlb=Yes
+C:\WINDOWS\system32\MSMAPI32.OCX=Yes
+C:\WINDOWS\system32\MSWINSCK.OCX=Yes
+C:\Documents and Settings\S M Assad\Desktop\proc\Install-PMS\PMS.exe=Yes
+C:\Documents and Settings\S M Assad\Desktop\proc\Source\vbSendMail.dll=Yes
+C:\WINDOWS\system32\inetsrv\smtpadm.dll=Yes
+C:\Program Files\Windows Media Player\OSSMTP.dll=Yes
+C:\Program Files\TCMS\MSFLXGRD.OCX=Yes
+C:\Program Files\TCMS\MSCOMCT2.OCX=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Documents and Settings\S M Assad\Desktop\pms\PMS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Program Files\InventoryPower\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\system32\msscript.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\msadomd.dll=$(WinSysPath)
+C:\WINDOWS\system32\msbind.dll=$(WinSysPath)
+C:\WINDOWS\system32\msde.dll=$(WinSysPath)
+C:\Program Files\Common Files\System\ado\msador15.dll=$(CommonFilesSys)\ADO
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\msagent\agentctl.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\PCHealth\HelpCtr\Binaries\msinfo.dll=$(WinSysPath)
+C:\Documents and Settings\S M Assad\Desktop\pms\vbSendMail.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\CDO\CDOEX.DLL=$(WinSysPath)
+C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\Microsoft.Vsa.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\Documents and Settings\S M Assad\Desktop\pms\Source\vbSendMail.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\Documents and Settings\S M Assad\Desktop\proc\PMS.exe=$(AppPath)
+C:\Documents and Settings\S M Assad\Desktop\proc\Install-PMS\PMS.exe=$(AppPath)
+C:\Documents and Settings\S M Assad\Desktop\proc\Source\vbSendMail.dll=$(WinSysPath)
+C:\WINDOWS\system32\inetsrv\smtpadm.dll=$(WinSysPath)
+C:\Program Files\Windows Media Player\OSSMTP.dll=$(WinSysPath)
+C:\Program Files\TCMS\MSFLXGRD.OCX=$(WinSysPath)
+C:\Program Files\TCMS\MSCOMCT2.OCX=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\S M Assad\Desktop\pms\PMS.exe=Yes
+C:\Documents and Settings\S M Assad\Desktop\proc\PMS.exe=Yes
+C:\Documents and Settings\S M Assad\Desktop\proc\Install-PMS\PMS.exe=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=PMS
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=PMS
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|PMS]
+Icon1=PMS.exe
+Title1=PMS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Documents and Settings\S M Assad\Desktop\proc\Install-PMS
+ProjectFolder=C:\Documents and Settings\S M Assad\Desktop\proc\Source
+ServerSideCab=
+File1=C:\Documents and Settings\S M Assad\Desktop\proc\Install-PMS\setup.exe
+File2=C:\Documents and Settings\S M Assad\Desktop\proc\Install-PMS\Setup.Lst
+File3=C:\Documents and Settings\S M Assad\Desktop\proc\Install-PMS\PMS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
